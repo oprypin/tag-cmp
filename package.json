@@ -1,7 +1,7 @@
 {
   "name": "tag-cmp",
   "description": "Permissive comparison of version identifiers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "tags.js",
   "files": [],
   "scripts": {
