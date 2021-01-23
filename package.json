@@ -1,33 +1,33 @@
 {
-  "name": "find-latest-tag",
-  "description": "GitHub Action: Find the latest tag in a GitHub repository",
-  "main": "index.js",
+  "name": "tag-cmp",
+  "description": "Permissive comparison of version identifiers",
+  "version": "0.0.0",
+  "main": "tags.js",
+  "files": [],
   "scripts": {
-    "start": "node index.js",
     "lint": "eslint .",
     "test": "eslint . && jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oprypin/find-latest-tag.git"
+    "url": "git+https://github.com/oprypin/tag-cmp.git"
   },
   "keywords": [
-    "GitHub",
-    "Actions",
-    "Release"
+    "semver",
+    "git",
+    "compare"
   ],
   "author": "Oleh Prypin <oleh@pryp.in>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oprypin/find-latest-tag/issues"
+    "url": "https://github.com/oprypin/tag-cmp/issues"
   },
-  "homepage": "https://github.com/oprypin/find-latest-tag",
-  "dependencies": {
-    "@actions/core": "^1.2.6",
-    "@octokit/rest": "^18.0.6"
-  },
+  "homepage": "https://github.com/oprypin/tag-cmp",
   "devDependencies": {
     "eslint": "^7.10.0",
     "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "np": "^7.2.0"
   }
 }
