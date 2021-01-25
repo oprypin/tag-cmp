@@ -7,7 +7,7 @@ This can be used with `Array.sort`.
 ## Example
 
 ```javascript
-var {cmpTags} = require('tag-cmp');
+const {cmpTags} = require("tag-cmp");
 
 cmpTags("1.2b1", "1.2") === -1;
 
