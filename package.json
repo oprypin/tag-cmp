@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/oprypin/tag-cmp",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "jest": "^27.2.5",
-    "np": "^7.5.0"
+    "eslint": "^8.3.0",
+    "jest": "^27.3.1",
+    "np": "^7.6.0"
   }
 }
