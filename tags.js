@@ -5,7 +5,7 @@ function cmpTags(a, b) {
 exports.cmpTags = cmpTags;
 
 function tagSortKey(s) {
-    let a = s.split(/([0-9]+)/);
+    const a = s.split(/([0-9]+)/);
     // Example: 'v1.23rc4' -> ['v', '1', '.', '23', 'rc', '4', ''];
     for (let i = 1; i < a.length; i += 2) {
         // Every 2nd item will be digit-only; convert it to a number.
